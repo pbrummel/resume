@@ -1,0 +1,687 @@
+/* 
+General CSS 
+*/
+
+html, body, header, footer {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#skillsSection, #experienceAndEducation {
+    font-family: 'Roboto', sans-serif;    
+}
+
+.returnToTop {
+    font-family: 'Big Shoulders Display', fantasy;
+    font-size: 1.75vw;
+    clear: both;
+    padding-top: 1.5vw;
+}
+
+.returnToTop2 {
+    font-family: 'Big Shoulders Display', fantasy;
+    font-size: 1.75vw;
+    clear: both;
+    padding-top: 61vw;
+}
+
+
+
+/* 
+Animation CSS 
+*/
+
+.animate__fadeIn {
+    --animate-duration: 2s;
+}
+
+.skills li {
+    display: inline-block;
+}
+
+.randomSide p {
+    display: inline-block;
+    --animate-duration: 2s;
+}
+
+.randomSide br {
+    margin-top: -1vw;   
+}
+
+
+/*
+nav section
+*/
+
+.headerBackground {
+    background-image: url(images/headerBackground.jpg);
+    background-size: cover;
+    height: 65vw;
+    overflow: hidden;
+    width: 100%;
+}
+
+.navCentered {
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(85, 249, 228, 1.0);
+    width: 100%;
+    height: 9.5vw;
+    background-size: cover;
+}
+
+/*
+
+nav ul {
+     -ms-transform: translateX(-45%);
+        -webkit-transform: translateX(-45%);
+                transform: translateX(-45%);
+}
+
+*/
+
+.bg-info {
+    z-index: 1;   
+}
+
+nav a {
+    z-index: 2;   
+}
+
+nav ul:hover {
+    color: blue;
+}
+
+@media screen and (max-width: 720px) {
+    nav li:hover {
+        background-color: rgba(136, 251, 246, 0.4);
+        margin-right: 5vw;
+    }
+}
+
+nav li:hover {
+    background-color: rgba(136, 251, 246);
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 721px) {
+    .bg-info {
+        opacity: 0.8;
+    }
+    
+    nav ul {
+     -ms-transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+                transform: translateX(0%);
+    }
+
+}
+
+nav a {
+    color: white;    
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 1.75vw;
+    font-weight: 600;
+}
+
+.navbar-collapse {
+     opacity: 1.0;   
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+}
+
+
+
+/*
+hero image section
+*/
+
+#aboutMe {
+    justify-content: center;
+}
+
+#aboutMe a {
+    color: white;
+    font-weight: 500;   
+}
+
+.profilePic {
+    width: 15vw;
+    overflow: hidden;
+    margin-top: 5vw;
+}
+
+
+
+.h1 {
+    font-size: 3vw;   
+    margin-top: 0.5vw;
+}
+
+.h2 {
+    font-size: 2vw;   
+    margin-top: 0.5vw;
+}
+
+
+/* 
+Skills section
+*/
+
+.skillsSection {
+    background-color: #010020;
+    width: 100%;   
+    height: 60vw;
+    margin-top: -9.5vw;
+}
+
+.softwareSide {
+    border: 0.5vw solid #FBFFFC;
+    height: 50vw;
+    width: 42.5vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    float: left;
+    overflow: hidden;
+}
+
+.practicalSide {
+    border: 0.5vw solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(51, 177, 237, 0.4);
+    height: 50vw;
+    width: 42.5vw;
+    float: left;
+    margin-left: 3vw;
+    margin-top: 5vw;
+    overflow: hidden;
+}
+
+.noListStyle {
+    list-style-type: none;   
+}
+
+
+.skillsSection li {
+    margin-bottom: 0;
+    margin-left: -2vw;
+}
+
+.blueStar {
+    width: 4vw;
+    margin-left: 0.25vw;
+}
+
+.whiteStar {
+    width: 4vw;
+    margin-left: 0.25vw;
+}
+
+@media screen and (min-width: 540px) {
+    .skillsSection li {
+        margin-bottom: 0vw;
+        margin-left: -1vw;
+    }
+    
+      
+    .blueStar {
+        width: 4vw;
+        margin-left: 0.25vw;
+    }
+
+    .whiteStar {
+        width: 4vw;
+        margin-left: 0.25vw;
+    }
+    
+}
+
+@media screen and (min-width: 900px) {
+    .skillsSection li {
+        padding-top: 0.5vw;
+        margin-bottom: 0vw;
+        margin-left: 0.5vw;
+    }
+    
+    .softwareList li {
+        padding-top: 0vw;
+    }
+    
+    .practicalSide li {
+        padding-top: 0vw;
+    }
+    
+    .blueStar {
+        width: 4vw;
+        margin-left: 0.25vw;
+    }
+
+    .whiteStar {
+        width: 4vw;
+        margin-left: 0.25vw;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    
+    .skillsSection li {
+        padding-top: 1vw;
+        margin-bottom: 0.75vw;
+        margin-right: 1vw;
+        margin-left: 2vw;
+    }
+    
+    .softwareList li {
+        padding-top: 0.25vw;
+    }
+    
+    .practicalSide li {
+        padding-top: 0.25vw;
+    }
+    
+    
+    .blueStar {
+        width: 4vw;
+        margin-left: 0.25vw;
+    }
+
+    .whiteStar {
+        width: 4vw;
+        margin-left: 0.25vw;
+    }
+}
+
+    
+
+/*
+Experience & Education section
+*/
+
+#experienceAndEducation {
+    font-family: 'Roboto', sans-serif;   
+}
+
+.upperPart {
+    background-image: url(images/bodyBackground.jpg);
+    width: 100%;
+    height: 65.5vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 8vw;
+}
+
+.experienceSide {
+    border: 0.5vw solid rgba(254,254,254, 0.4);
+    background-color: rgba(15, 49, 89, 0.6);
+    height: 119.5vw;
+    width: 42.5vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    position: absolute;
+    overflow: hidden;
+}
+
+.educationSide {
+    border: 0.5vw solid white;
+    background-color: rgba(51, 177, 237, 0.4);
+    height: 55vw;
+    width: 42.5vw;
+    margin-left: 51vw;
+    margin-top: 5vw;
+    overflow: hidden;
+    position: absolute;
+}
+
+.experienceSide ul {
+    margin-top: -1vw;
+    padding-right: 3vw;
+    padding-left: 4vw;
+}
+
+.experienceSide p {
+    padding-bottom: 0.25vw;
+}
+
+
+@media screen and (min-width: 1200px) {
+    .experienceSide ul {
+        margin-top: -1vw;
+        padding-right: 1vw;
+        padding-left: 3.5vw;
+    }
+
+    .experienceSide p {
+        padding-bottom: 1vw;
+        padding-top: 2vw;
+    }
+}
+
+
+.lowerPart {
+    background-color: #010020;
+    width: 100%;   
+    height: 64.5vw;
+    margin-top: -9vw;
+}
+
+.honorsSide {
+        border: 0.5vw solid white;
+        height: 55.4vw;
+        width: 42.5vw;
+        margin-left: 51vw;
+        margin-top: 4.5vw;
+        overflow: hidden;
+        position: absolute;
+}
+
+@media screen and (min-width: 500px) {
+    .honorsSide p {
+       margin-top: 2vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .honorsSide p {
+       margin-top: 4vw;
+    }
+}
+
+.h3 {
+  font-size: 1.75vw;   
+}
+
+.dashed {
+  list-style-type: none;
+}
+
+.dashed > li:before {
+  content: "-";
+}
+
+.MATC {
+    width: 10vw;
+    padding-top: 1vw;
+    padding-left: 1vw;
+}
+
+.calArts {
+    width: 7vw; 
+    padding-top: 3vw;
+    padding-bottom: 0.5vw;
+    margin-left: 2vw;
+}
+
+.UMCP {
+    width: 10vw;
+    padding-top: 2.5vw;
+    padding-left: 1vw;
+}
+
+.yearsActive {
+    padding-left: 3.5vw;
+    margin-top: .05w;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
+.floatRight {
+    float: right;
+    padding-right: 2vw;
+    padding-top: 3vw;
+}
+
+.floatRight2 {
+    float: right;
+    padding-right: 2vw;
+    padding-left: 10vw;
+    margin-top: -8vw;
+}
+
+.floatRight3 {
+    float: right;
+    padding-right: 6.5vw;
+    padding-top: 3.5vw;
+}
+
+.floatRight4 {
+    float: right;
+    padding-right: 5vw;
+    padding-left: 15vw;
+    margin-top: -8vw;
+}
+
+.floatRight5 {
+    float: right;
+    margin-top: 5vw;
+    margin-right: 6vw;
+    overflow: hidden;
+}
+
+.floatRight6 {
+    float: right;
+    margin-right: 5vw;
+    margin-top: -5.25vw;
+    overflow: hidden;
+}
+
+
+
+/*
+Portfolio & Random section
+*/
+
+#portfolioAndRandom {
+    background-image: url(images/bodyBackground.jpg);
+    width: 100%;
+    height: 65vw;
+    background-size: cover;
+}
+
+#portfolioAndRandom h2 {
+    padding-top: 1vw;
+}
+
+.portfolioSide {
+    border: 0.5vw solid #F2F2F2;
+    background-color: rgba(15, 49, 89, 0.6);
+    font-family: 'Roboto', sans-serif;  
+    height: 55vw;
+    width: 42.5vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    float: left;
+}
+
+.randomSide {
+    border: 0.5vw solid white;
+    background-color: rgba(90, 160, 178, 0.8);
+    height: 55vw;
+    width: 42.5vw;
+    margin-left: 3.5vw;
+    margin-top: 5vw;
+    float: left;
+    overflow: hidden;
+}
+
+.randomSide h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding-bottom: 1vw;
+    margin-bottom: 0;
+}
+
+.randomSide p {
+    font-family: 'Indie Flower', fantasy;
+    margin-bottom: 0;
+    margin-left: 2vw;
+    font-size: 2.5vw;
+}
+
+@media screen and (min-width: 300px) {
+    .randomSide p {
+        margin-bottom: 1.5vw;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .randomSide p {
+        margin-bottom: 3vw;
+    }
+    
+    .randomSide h2 {
+        margin-bottom: 1vw;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .randomSide p {
+        margin-bottom: 3.75vw;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .randomSide p {
+        margin-bottom: 4.5vw;
+    }
+    .randomSide h2 {
+        margin-bottom: 1.5vw;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .randomSide p {
+        margin-bottom: 4.5vw;
+    }
+    .randomSide h2 {
+        margin-bottom: 1.5vw;
+    }
+}
+
+.randomPic {
+    width: 8vw;
+    margin-left: 3vw;
+    position: absolute;
+}
+
+#carouselSlides {
+    padding: 0 1.5vw;
+    margin-top 0 1.5vw;
+}
+
+.carouselImage {
+    padding: 0 1.5vw;
+}
+
+#travelPoster {
+    height: 45vw;
+    width: 35vw;
+}
+
+.yoda {
+    -ms-transform: translateY(-5%);
+        -webkit-transform: translateY(-5%);
+                transform: translateY(-5%);
+}
+
+.smoothie {
+    -ms-transform: translateY(-40%);
+        -webkit-transform: translateY(-40%);
+                transform: translateY(-40%);
+}
+
+.tomNook {
+    -ms-transform: translate(-21%, -35%);
+        -webkit-transform: translate(-21%, -35%);
+                transform: translate(-21%, -35%);
+}
+
+.h4 {
+    font-size: 1.75vw;
+}
+
+.carousel-control-next-icon {
+    background-color: #386390;
+}
+
+.carousel-control-prev-icon {
+    background-color: #386390;
+}
+
+.responsiveImage {
+    width: 10vw;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    padding-right: 1.8vw;
+    margin-left: 1vw;
+}
+
+
+.portfolioSide p {
+    padding-top: 2vw;
+    padding-right: 1vw;
+    padding-bottom: 0.25vw;
+    margin-bottom: 3vw;
+    margin-top: 1vw;
+    clear: left;
+}
+
+.portfolioSide span {
+    clear: left;
+}
+
+
+/*
+footer
+*/
+
+footer {
+    background-color: #010020;
+    background-size: cover;
+    width: 100%;
+    height: 10vw;
+}
+
+footer a {
+    font-size: 1.5vw;    
+}
+
+.socialSet {
+    overflow: hidden;
+    padding-right: 5vw;
+    margin-top: 2.5vw;
+}
+
+.fa-facebook-square {
+    color: #2D5A94;
+    margin-left: 5.5vw;
+}
+
+.fa-facebook-square:hover {
+    color: rgba(255, 206, 0);
+}
+
+.fa-linkedin {
+    
+}
+
+.fa-linkedin:hover {
+     color: rgba(255, 206, 0);
+}
+
+.fa-discord {
+    color: #8a9cfe;
+}
+
+.fa-discord:hover {
+     color: rgba(255, 206, 0);
+}

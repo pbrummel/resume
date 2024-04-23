@@ -1,0 +1,96 @@
+
+
+.headerBackground {
+    height: 54vw;
+}
+
+.softwareSide {
+    margin-top: 3vw;
+}
+
+.practicalSide {
+    margin-top: 3vw;
+}
+
+.educationSide {
+    border: 0.5vw solid white;
+    background-color: rgba(51, 177, 237, 0.4);
+    height: 59vw;
+    width: 42.5vw;
+    margin-left: 51vw;
+    margin-top: 3vw;
+    overflow: hidden;
+    position: absolute;
+}
+
+.noFloat {
+    float: none;
+}
+
+
+.experienceSide {
+    height: 116.5vw;
+    margin-top: 3vw;
+
+}
+
+.honorsSide {
+    border: 0.5vw solid white;
+    height: 49vw;
+    width: 42.5vw;
+    margin-left: 51vw;
+    margin-top: 4.5vw;
+    overflow: hidden;
+    position: absolute;
+}
+
+
+.honorsSide p {
+    margin-bottom: 2.25vw;
+}
+
+.portfolioSide {
+    height: 50.5vw;
+    margin-top: 3vw;
+}
+
+
+.randomSide {
+    height: 50.5vw;
+    margin-top: 3vw;
+}
+
+.randomSide p {
+    font-family: 'Indie Flower', fantasy;
+    margin-bottom: 3.5vw;
+    margin-left: 2vw;
+    font-size: 2.5vw;
+}
+
+
+.skillsSection { 
+    height: 56.5vw;
+}
+
+.upperPart {
+    height: 67vw;
+}
+
+
+.lowerPart {
+    height: 58vw;
+    margin-top: -9vw;
+}
+
+.returnToTop {
+    display: none;
+}
+
+.returnToTop2 {
+   display: none;
+}
+
+
+#portfolioAndRandom {
+    height: 57vw;
+}
