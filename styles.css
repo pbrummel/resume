@@ -573,7 +573,7 @@ Portfolio & Random section
 
 #carouselSlides {
     padding: 0 1.5vw;
-    margin-top 0 1.5vw;
+    margin-top: 0 1.5vw;
 }
 
 .carouselImage {
@@ -687,18 +687,19 @@ footer a {
 }
 
 .honorsSide p {
-    line-height: 0.6;
+    line-height: 0.4;
 }
 
 .honorsSide span {
-    font-size: 1.25rem;
-    display: block; /* Ensures it behaves like a block element */
-    margin-top: 0.4rem; /* Adds space above the years/descriptions */
+    font-size: 1.5rem;
+    display: block; 
+    margin-top: 0.4rem; 
+    padding-top: 0.25rem;
 }
 
 .honorsSide ul li {
-    font-size: 1.25rem; /* Make the TEDx description slightly smaller */
-    line-height: 1.2; /* Adjust spacing for the list item */
-    margin-top: 0.2rem; /* Reduce spacing above list items */
-    margin-bottom: 0.5rem; /* Reduce space between paragraphs */
+    font-size: 1.25rem; 
+    line-height: 1.2; 
+    margin-top: 0.2rem; 
+    margin-bottom: 0.5rem; 
 }

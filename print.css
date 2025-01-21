@@ -49,6 +49,24 @@
     margin-bottom: 2.25vw;
 }
 
+.honorsSide h2 {
+    margin-bottom: 2vw;
+}
+
+.honorsSide p ul {
+    text-align: left; /* Align text to the left for readability */
+    font-size: 1rem; /* Adjust font size for print, if necessary */
+}
+
+.honorsSide p + ul {
+    margin-top: 0.2rem; /* Reduce the space between the title and description */
+    
+}
+
+.honorsSide ul li {
+    padding-top: 0; /* Remove extra padding if any exists on the list items */
+}
+
 .portfolioSide {
     height: 50.5vw;
     margin-top: 3vw;
