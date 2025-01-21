@@ -685,3 +685,20 @@ footer a {
 .fa-discord:hover {
      color: rgba(255, 206, 0);
 }
+
+.honorsSide p {
+    line-height: 0.6;
+}
+
+.honorsSide span {
+    font-size: 1.25rem;
+    display: block; /* Ensures it behaves like a block element */
+    margin-top: 0.4rem; /* Adds space above the years/descriptions */
+}
+
+.honorsSide ul li {
+    font-size: 1.25rem; /* Make the TEDx description slightly smaller */
+    line-height: 1.2; /* Adjust spacing for the list item */
+    margin-top: 0.2rem; /* Reduce spacing above list items */
+    margin-bottom: 0.5rem; /* Reduce space between paragraphs */
+}
