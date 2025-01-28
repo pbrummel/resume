@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description" content="Resume and portfolio site for Peter Brummel">
+    <meta name="Description" content="Resume site for Peter Brummel">
     <meta name="author" content="Peter Brummel">
     <title>Peter Brummel</title>
 
@@ -42,12 +42,38 @@
 
     <header class="headerBackground" id="returnToTop">
         <nav class="navbar bg-info nav-fill navbar-expand-md" aria-label="Main navigation">
-            <button type="button" class="navbar-toggler navbar-dark" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation" role="button">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <!-- Toggle Button (Hamburger Menu for Small Screens) -->
+                <button
+                    type="button"
+                    class="navbar-toggler navbar-dark"
+                    data-toggle="collapse"
+                    data-target="#collapsibleNavbar"
+                    aria-controls="collapsibleNavbar"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    role="button"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+       
 
             <div class="collapse navbar-collapse bg-info opacity-5" id="collapsibleNavbar">
-                <ul class="navbar-nav w-100 ml-3">
+
+                <!-- Close Button (Only Visible on Small Screens) -->
+                <div class="d-md-none d-flex justify-content-end">
+                    <button
+                        type="button"
+                        class="btn btn-light btn-sm m-2"
+                        data-toggle="collapse"
+                        data-target="#collapsibleNavbar"
+                        aria-label="Close navigation"
+                        style="font-size: 1.5rem; line-height: 1; background: none; border: none; color: rgba(255, 255, 255, 0.8);"
+                    >
+                        &times;
+                    </button>
+                </div>
+
+                <ul class="navbar-nav w-100">
                     <li class="nav-item"><a class="nav-link" href="#aboutMe">About Me</a></li>
                     <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link" href="#experienceAndEducation">Experience</a></li>
@@ -177,7 +203,7 @@
                 </p>
                 <ul class="dashed">
                     <li class="h3 text-white font-weight-normal">&nbsp;Advised Thai professors by proofreading course books, writing & editing exams, and assisting with daily notices</li>
-                    <li class="h3 text-white font-weight-normal">&nbsp;Developed activities to increase understanding through engaging content; Created 25-page curriculum for nursing course</li>
+                    <li class="h3 text-white font-weight-normal">&nbsp;Developed engaging activities to increase understanding; Created 25-page curriculum nursing course</li>
                 </ul>
 
             </div>

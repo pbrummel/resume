@@ -70,7 +70,7 @@ nav section
 nav {
     background-color: rgba(85, 249, 228, 1.0);
     width: 100%;
-    height: 9.5vw;
+    height: 7.5vw;
     background-size: cover;
 }
 
@@ -136,6 +136,66 @@ nav a {
 .navbar-nav .nav-link {
     padding-right: 0;
 }
+
+.navbar-toggler {
+    margin: 0; /* Remove default margin */
+    padding: 0.5rem; /* Adjust padding for a balanced look */
+    align-self: center; /* Vertically center */
+    position: absolute; /* Position independently */
+    right: 1rem; /* Move it to the right */
+    top: 50%; /* Move it halfway down */
+    transform: translateY(-50%); /* Center it perfectly vertically */
+}
+
+.navbar {
+    padding: 0.5rem 1rem; /* Ensure proper padding for the navbar */
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-toggler-icon {
+    width: 1.5rem;
+    height: 1.5rem; /* Adjust icon size if needed */
+}
+
+.navbar-nav {
+    text-align: center; /* Center-align text */
+}
+
+.nav-link {
+    font-size: 1.2rem; /* Slightly increase link size */
+
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.nav-link:hover {
+    color: #fff; /* Highlight color on hover */
+}
+
+.collapse.navbar-collapse {
+    justify-content: center; /* Ensure nav links are horizontally centered */
+}
+
+button[data-bs-toggle="collapse"] {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: none;
+    border: none;
+    line-height: 1;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    transition: color 0.2s ease;
+}
+
+button[data-bs-toggle="collapse"]:hover {
+    color: rgba(255, 255, 255, 1); /* Brighter white on hover */
+}
+
 
 
 
@@ -325,7 +385,7 @@ Experience & Education section
     margin-left: 5vw;
     margin-top: 5vw;
     position: absolute;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .educationSide {
@@ -391,6 +451,18 @@ Experience & Education section
     .honorsSide p {
        margin-top: 4vw;
     }
+}
+
+@media screen and (max-width: 700px) {
+    .honorsSide p {
+       font-size: 2vw;
+    }
+
+    .honorsSide span {
+        font-size: 2vw;
+        padding-top: 0.25rem;
+        margin-top: 0.1rem;
+     }
 }
 
 .h3 {
@@ -472,6 +544,19 @@ Experience & Education section
     overflow: hidden;
 }
 
+@media screen and (max-width: 540px) {
+    .floatRight6 {
+        margin-top: -9.25vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .educationSide h2 {
+        margin-bottom: -0.25rem; /* Optional: Reduce spacing below the heading */
+    }
+
+
+}
 
 
 /*
@@ -509,6 +594,7 @@ Portfolio & Random section
     margin-top: 5vw;
     float: left;
     overflow: hidden;
+    line-height: 1.8;
 }
 
 .randomSide h2 {
@@ -691,9 +777,8 @@ footer a {
 }
 
 .honorsSide span {
-    font-size: 1.5rem;
     display: block; 
-    margin-top: 0.4rem; 
+    margin-top: 0.rem; 
     padding-top: 0.25rem;
 }
 
@@ -702,4 +787,8 @@ footer a {
     line-height: 1.2; 
     margin-top: 0.2rem; 
     margin-bottom: 0.5rem; 
+}
+
+body {
+    line-height: 0.9rem;
 }
