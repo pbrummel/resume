@@ -283,6 +283,25 @@ Skills section
     margin-left: 0.25vw;
 }
 
+@media screen and (min-width: 240px) {
+    .skillsSection li {
+        margin-bottom: 0vw;
+        margin-left: -5vw;
+    }
+    
+      
+    .blueStar {
+        width: 4vw;
+        margin-left: 0.25vw;
+    }
+
+    .whiteStar {
+        width: 4vw;
+        margin-left: 0.25vw;
+    }
+    
+}
+
 @media screen and (min-width: 540px) {
     .skillsSection li {
         margin-bottom: 0vw;
