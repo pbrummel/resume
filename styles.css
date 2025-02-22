@@ -766,9 +766,13 @@ footer a {
     margin-top: 2.5vw;
 }
 
+.fa-github-square:hover {
+    color: rgba(255, 206, 0);
+}
+
 .fa-facebook-square {
     color: #2D5A94;
-    margin-left: 5.5vw;
+    
 }
 
 .fa-facebook-square:hover {
@@ -776,7 +780,7 @@ footer a {
 }
 
 .fa-linkedin {
-    
+    margin-left: 5.5vw;
 }
 
 .fa-linkedin:hover {
